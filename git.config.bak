@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "bitbucket"]
+	url = https://esend7881@bitbucket.org/esend7881/udacity-android-nanodegree-project0
+	fetch = +refs/heads/*:refs/remotes/bitbucket/*
+[gui]
+	wmstate = normal
+	geometry = 887x743+555+81 171 192
+[branch "master"]
+	remote = bitbucket
+	merge = refs/heads/master
+[remote "github"]
+	url = https://esend7881@github.com/esend7881/udacity-android-nanodegree-project0
+	fetch = +refs/heads/*:refs/remotes/github/*
+[http]
+	proxy = http://westproxy.northgrum.com:80
