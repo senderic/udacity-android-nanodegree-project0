@@ -20,3 +20,7 @@
 	fetch = +refs/heads/*:refs/remotes/github/*
 [http]
 	proxy = http://westproxy.northgrum.com:80
+[remote "all"]
+  url = https://esend7881@bitbucket.org/esend7881/udacity-android-nanodegree-project0
+  url = https://esend7881@github.com/esend7881/udacity-android-nanodegree-project0
+  fetch = +refs/heads/*:refs/remotes/origin/*
